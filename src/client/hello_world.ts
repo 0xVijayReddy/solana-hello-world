@@ -83,6 +83,8 @@ const GREETING_SIZE = borsh.serialize(
   new GreetingAccount(),
 ).length;
 
+console.log()
+
 /**
  * Establish a connection to the cluster
  */
